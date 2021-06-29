@@ -10,7 +10,7 @@ import requests
 import http.client
 
 def smartPush(userSaid):
-    conn = http.client.HTTPSConnection("spisdev.paran.com")
+    conn = http.client.HTTPSConnection("xxx.xxx.xxx")
     payload = "{\n  \"said\": [\n    \""+userSaid+"\"\n  ]\n}\n"
     print(payload)
     headers = {
